@@ -1,0 +1,42 @@
+
+
+.heroImgWrappwer{
+  height: fit-content;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.textLandingHero{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: #000000;
+}
+
+
+.heroIntro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 80px;
+  height: 90vh;
+}
+
+.landingPageH1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.7rem;
+  max-width: 580px;
+  color: var(--darkBlue);
+  margin-bottom: 20px;
+}
+
+.h1_text_btn{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: fit-content;
+}
+
+.h1_text_btn button{
+  margin-top: 50px;
+}

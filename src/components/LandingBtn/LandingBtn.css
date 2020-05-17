@@ -1,0 +1,15 @@
+.landingPageBtn{
+  font-family: 'Source Sans Pro', sans-serif;
+  background: var(--lightBlue1);
+  color: white;
+  font-weight: 600;
+  border-radius: 27px;
+  text-transform: uppercase;
+  padding: 0.7rem 3.5rem 0.7rem 3.5rem;
+  transition: 0.2s;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12)
+}
+
+.landingPageBtn:hover{
+  box-shadow: 0 4px 24px -5px var(--lightBlue1);
+}

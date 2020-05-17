@@ -1,0 +1,117 @@
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap');
+
+:root{
+  --sidebar-width: 250px;
+  --border-radius: 5px;
+  --color-text: #2F363D;
+  --bg-color: #F6F8FA;
+  --blue_1: rgb(5, 82, 198);
+  --blue_2: rgba(44, 105, 196, 0.1);
+  --gray_1: #f7f7f7;
+  --lightBlue1_50: #005fffb0;
+}
+
+html{
+  font-size: 18px;
+  color: var(--color-text);
+  scroll-behavior:smooth;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: inherit;
+}
+
+h5 {
+  margin: 0;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+section {
+  margin-top: 20px;
+}
+
+input{
+  outline: none;
+  border: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+.relative{
+  position: relative;
+}
+
+.centerPage{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.centeredText{
+  text-align: center;
+}
+
+.whiteCard{
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 18px 25px -10px rgba(15,38,59,0.30);
+  transition: 0.2s;
+}
+
+.hidden{
+  display: none;
+}
+
+.noMargin{
+  margin: 0;
+}
+
+
+.centerVertical{
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+  height: fit-content;
+}
+
+.centerHorizontal{
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+  width: fit-content;
+}
